@@ -1,0 +1,30 @@
+package commons.commands.support;
+
+public enum RespondType {
+    RET_ERROR,
+
+    RET_TARIFFS,
+
+    RET_PASS_WRONG,
+    RET_PASS_OK,
+
+    RET_DEL_TARIFF,
+    RET_EDIT_TARIFF,
+    RET_SAVE_TARIFF,
+
+    RET_APPROVE_REQUEST,
+    RET_DENY_REQUEST,
+    RET_SAVE_REQUEST,
+
+    RET_SEND_MAIL_FROM_CLIENT,
+    RET_SEND_MAIL_FROM_MANAGER,
+
+    RET_EDIT_USER,
+    RET_SAVE_USER,
+    RET_DEL_USER,
+
+    RET_SAVE_CLIENT,
+    RET_EDIT_CLIENT,
+
+    RET_SAVE_PAYMENT,
+}

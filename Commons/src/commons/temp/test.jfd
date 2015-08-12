@@ -1,0 +1,314 @@
+JFDML JFormDesigner: "5.2.0.0.109" Java: "1.7.0_40" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.bundleName": "text"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 0, 204, 0, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblTitle"
+					"text": "Платежі по кредиту"
+					"foreground": new java.awt.Color( 204, 255, 204, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 14, false )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "North"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel5"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+					"axis": 1
+				} ) {
+					name: "panel3"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+						"axis": 1
+					} ) {
+						name: "panel2"
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+							"$columnCount": 2
+							"$rowCount": 3
+							"hGap": 5
+							"vGap": 3
+							"margin": new java.awt.Insets( 5, 5, 5, 0 )
+							"sameSizeVertically": true
+						} ) {
+							name: "panel4"
+							"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+							"border": &LineBorder0 new javax.swing.border.LineBorder( new java.awt.Color( 51, 153, 0, 255 ), 1, false )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label2"
+								"text": "Дата платежу:"
+								"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "lblDate"
+								"text": "10.11.2013"
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"anchor": 8
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label1"
+								"text": "Сума платежу:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"row": 1
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+								"vgap": 0
+								"hgap": 0
+							} ) {
+								name: "panel6"
+								"background": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "lblSum"
+									"text": "100"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label3"
+									"text": "грн"
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"anchor": 8
+								"row": 1
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label5"
+								"text": "Штраф:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"row": 2
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+								"vgap": 0
+								"hgap": 0
+							} ) {
+								name: "panel8"
+								"background": #Color1
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "lblPenalty"
+									"text": "10"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label6"
+									"text": "грн"
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"row": 2
+								"anchor": 8
+							} )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+							name: "empty11"
+							"background": &Color2 new java.awt.Color( 255, 255, 255, 255 )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+							"$columnCount": 2
+							"$rowCount": 3
+							"hGap": 5
+							"vGap": 3
+							"margin": new java.awt.Insets( 5, 5, 5, 0 )
+							"sameSizeVertically": true
+						} ) {
+							name: "panel7"
+							"background": #Color0
+							"border": #LineBorder0
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label4"
+								"text": "Дата платежу:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "lblDate2"
+								"text": "10.11.2013"
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"anchor": 8
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label7"
+								"text": "Сума платежу:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"row": 1
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+								"vgap": 0
+								"hgap": 0
+							} ) {
+								name: "panel9"
+								"background": #Color1
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "lblSum2"
+									"text": "100"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label8"
+									"text": "грн"
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"anchor": 8
+								"row": 1
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label9"
+								"text": "Штраф:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"row": 2
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+								"vgap": 0
+								"hgap": 0
+							} ) {
+								name: "panel10"
+								"background": #Color1
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "lblSum4"
+									"text": "10"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label10"
+									"text": "грн"
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"row": 2
+								"anchor": 8
+							} )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+							name: "empty12"
+							"background": #Color2
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+						"$columnCount": 1
+						"$rowCount": 2
+						"hGap": 5
+						"vGap": 0
+					} ) {
+						name: "panel13"
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+						"border": new javax.swing.border.LineBorder( new java.awt.Color( 51, 204, 0, 255 ), 1, false )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+							"$columnCount": 1
+							"$rowCount": 1
+							"hGap": 0
+							"vGap": 0
+							"margin": new java.awt.Insets( 0, 5, 0, 0 )
+						} ) {
+							name: "panel16"
+							"background": new java.awt.Color( 204, 255, 204, 255 )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label14"
+								"text": "Внесення нового платежу"
+								"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 4, false )
+								"foreground": new java.awt.Color( 51, 153, 0, 255 )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+							} )
+						}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+							"fill": 1
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+							"$columnCount": 2
+							"$rowCount": 3
+							"hGap": 5
+							"vGap": 5
+							"margin": new java.awt.Insets( 5, 5, 5, 5 )
+						} ) {
+							name: "panel17"
+							"background": new java.awt.Color( 255, 255, 255, 255 )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label11"
+								"text": "Поточний штраф:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+								"vgap": 0
+								"hgap": 0
+							} ) {
+								name: "panel14"
+								"background": new java.awt.Color( 255, 255, 255, 255 )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "lblCurrentPenalty"
+									"text": "10"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label12"
+									"text": "грн"
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"column": 1
+							} )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label13"
+								"text": "Сума до сплати, грн:"
+								"font": #SwingDerivedFont0
+								"horizontalAlignment": 2
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"anchor": 8
+								"row": 1
+							} )
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "tfNewSum"
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"row": 1
+								"fill": 1
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "btnPay"
+								"text": "Сплатити"
+								"background": new java.awt.Color( 102, 204, 0, 255 )
+								"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"column": 1
+								"row": 2
+							} )
+						}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+							"row": 1
+						} )
+					} )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 20, 10 )
+			"size": new java.awt.Dimension( 595, 380 )
+		} )
+	}
+}
